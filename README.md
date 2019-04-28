@@ -1,6 +1,4 @@
-<!-- Headings -->
-<center> SDL2 </center>
-=======================
+# SDL2
 
 This is a copy of the SDL source code with the premake build system added. It was loosely based on the
 [premake4 build system for SDL written by renpy][1], however I have only learned premake5 and almost all
@@ -33,6 +31,7 @@ To link SDL2 to another project:
 
 ## Structure
 The project has a directary structure similar to that of Unreal Engine:
+
 | Directory   | Description                                               |
 |-------------|-----------------------------------------------------------|
 | Binaries    | Binary directory.                                        |
