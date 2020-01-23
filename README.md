@@ -7,7 +7,7 @@ of that knowledge is not applicable to premake4.
 The official source release of SDL can be found [here][2]. 
 
 ## Building SDL2 with premake5
-So far, the premake files I have written only support Windows. As such I have only included the binaries and 
+So far, the premake files I have written only support Windows. As such I have only included the 
 batch files for building on Windows. I will add support for Linux and MacOS if and when I need it or if there
 is sufficient demand.
 ### Windows
