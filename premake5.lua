@@ -1,5 +1,5 @@
 workspace "SDL"
-	location         "../"
+	location         ""
 
 	configurations {
 		             "Debug",
@@ -19,7 +19,7 @@ workspace "SDL"
 
 	filter{}
 
-include "SDL2/SDL2.lua"
+include "SDL2.lua"
 
 filter "system:windows"                 -- Only needed on Windows for WinMain().
-	include "SDL2main/SDL2main.lua"
+	include "SDL2main.lua"

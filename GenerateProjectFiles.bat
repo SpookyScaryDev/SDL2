@@ -1,17 +1,12 @@
 @echo off
 
-if not exist "%~dp0Build\GenerateProjectFiles.bat" (
-    goto Error_NoBatchFile
-)
-
-cd Build
-call GenerateProjectFiles.bat
+echo Building SDL2 project files:
+echo    SDL2
+echo    SDL2main
 echo.
-pause
-exit
 
-:Error_NoBatchFile
-echo Error: The 'GenerateProjectFiles.bat' file in 'Build' could not be found.
-echo.
+@echo on
+call premake5\premake5.exe vs2019
+@echo off
+
 pause
-exit
